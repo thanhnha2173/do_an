@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Mobile Wallet</string>
+    <string name="home">Home</string>
+
+    <string name="title1">Receive 100.000Đ when have linking to account Bank</string>
+    <string name="title2">Share with your friend to get 100.000đ</string>
+    <string name="title3">Dating season with us</string>
+
+    <string name="decr1">Get 100.000đ to charge your acount </string>
+    <string name="decr2">When sharing to your friend, you ll get many funny abcxyz </string>
+    <string name="decr3">Get 100.000đ when having sharing mobile banking acount</string>
+
+    <string name="payment">Payment</string>
+
+    <string name="about_us">About Us</string>
+    <string name="service">Service</string>
+    <string name="send_cash">Send Cash</string>
+    <string name="excharge">Excharge</string>
+    
+    <string name="tranfer">Tranfer</string>
+    <string name="recharge_mobile">Recharge Mobile Cash</string>
+    <string name="buy_m_card">Buy mobile card</string>
+    <string name="change_card_to_cash">Change card to cash</string>
+    <string name="visa_service">Visa Service</string>
+    <string name="recharge_cash">Recharge Cash</string>
+    <string name="draw_cash">Draw Cash</string>
+    <string name="pay">Pay</string>
+    <string name="pay_bill">Pay bill</string>
+    <string name="pay_bill_sta">Pay bill station</string>
+
+    <string name="exit_app">Do you want exit application</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="news">News</string>
+    <string name="enter_tranfer_amount">Enter the tranfer amount</string>
+    <string name="hint_acount">Acount Receiver</string>
+    <string name="hint_confirm_pass">Confirm password</string>
+    <string name="derc_transfer">Describe transfer</string>
+    <string name="btn_continue">Continue</string>
+    <string name="mess_change_lang">Choice your languague</string>
+    <string name="eng">English</string>
+    <string name="vie">Vietnamese</string>
+
+
+</resources>

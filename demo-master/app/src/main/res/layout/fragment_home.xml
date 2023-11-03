@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:weightSum="14">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager_fgHome"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6">
+
+    </android.support.v4.view.ViewPager>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/recyclerViewButton_fgHome"></android.support.v7.widget.RecyclerView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="9">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:text="@string/news"
+                android:textColor="@color/colorText"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@drawable/ic_arrow" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/line"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewNews_fgHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/enter_tranfer_amount"
+            android:textColor="@color/colorText"
+            android:textSize="23dp"
+            android:textStyle="" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtNhapTien_fgTran"
+            android:hint="1.000.000"
+            android:maxLines="1"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/edtTenTaiKhoan_fgTran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:maxLines="1"
+            android:hint="@string/hint_acount" />
+
+        <EditText
+            android:id="@+id/edtMatKhau_fgTran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:maxLines="1"
+            android:hint="@string/hint_confirm_pass" />
+
+        <EditText
+            android:id="@+id/edtMoTa_fgTran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:maxLines="1"
+            android:hint="@string/derc_transfer" />
+
+        <Button
+            android:id="@+id/btnTiepTuc_fgTran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_custom"
+            android:text="@string/btn_continue"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</LinearLayout>

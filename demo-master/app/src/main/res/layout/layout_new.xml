@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:weightSum="10"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:src="@drawable/img_home"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:background="@drawable/button_color"
+        android:id="@+id/img_new"/>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:textSize="12dp"
+        android:background="@drawable/button_color"
+        android:ellipsize="end"
+        android:lines="2"
+        android:id="@+id/txt_title_new"
+        android:textStyle="bold"
+        android:text="Đây là tiêu đề nên chẳng có gì để xem đâu"/>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:textSize="12dp"
+        android:ellipsize="end"
+        android:lines="2"
+        android:layout_weight="2.5"
+        android:id="@+id/txt_decr_new"
+        android:text="Còn phần này là nội dung để hiện thị xem đã OK chưa"/>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="9">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/head_menu"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/button_color"
+                android:src="@drawable/ic_menu" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/head_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:text="@string/home"
+            android:textColor="@color/colorGreen"
+            android:textSize="22dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/testLinear"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/head_alarm"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_color"
+                android:src="@drawable/ic_notice" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

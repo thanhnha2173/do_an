@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Ví Điện Tử</string>
+    <string name="home">Trang chủ</string>
+
+    <string name="title1">Tặng ngay 100.000đ  khi liên kết tài khoản</string>
+    <string name="title2">Chia sẻ với bạn bè  nhận ngay 100.000đ</string>
+    <string name="title3">Cùng chúng tôi hẹn hò mùa yêu</string>
+
+    <string name="decr1">Nhận ngay 100.000đ để  nạp tiền điện thoại khi ...</string>
+    <string name="decr2">Khi chia sẻ với bạn bè của mình, bạn sẽ nhận ngay ...</string>
+    <string name="decr3">Nhận 100.000đ khi nhập mã KM và liên kết tài khoản</string>
+    <string name="payment">Thanh toán</string>
+
+    <string name="about_us">Giới thiệu</string>
+    <string name="service">Dịch vụ</string>
+    <string name="send_cash">Gửi tiền</string>
+    <string name="excharge">Giao Dịch</string>
+
+    <string name="tranfer">Chuyển tiền</string>
+    <string name="recharge_mobile">Nạp tiền điện thoại</string>
+    <string name="buy_m_card">Mua thẻ điện thoại</string>
+    <string name="change_card_to_cash">Đổi thẻ thành tiền mặt</string>
+    <string name="visa_service">Dịch vụ Visa</string>
+    <string name="recharge_cash">Nạp tiền</string>
+    <string name="draw_cash">Rút tiền</string>
+    <string name="pay">Tra góp</string>
+    <string name="pay_bill">Thanh toán hóa đơn</string>
+    <string name="pay_bill_sta">Điểm thanh toán hóa đơn</string>
+
+    <string name="exit_app">Bạn muốn thoát ứng dụng ?</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="news">Tin tức</string>
+    <string name="hint_acount">Tài khoản người nhận</string>
+    <string name="hint_confirm_pass">Xác nhận tài khoản</string>
+    <string name="enter_tranfer_amount">Nhập số tiền chuyển</string>
+    <string name="btn_continue">Tiếp tục</string>
+    <string name="derc_transfer">Mô tả chuyển tiền</string>
+    <string name="mess_change_lang">Chọn ngôn ngữ</string>
+    <string name="vie">Tiếng Việt</string>
+    <string name="eng">Tiếng Anh</string>
+
+</resources>
+
